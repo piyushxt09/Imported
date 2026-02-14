@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="zxx" class="theme-light">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./homepage_files/bootstrap.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="./homepage_files/animate.min.css">
+    <!-- Meanmenu CSS -->
+    <link rel="stylesheet" href="./homepage_files/meanmenu.css">
+    <!-- Remixicon CSS (kept for framework but not used; we enforce FA) -->
+    <link rel="stylesheet" href="./homepage_files/remixicon.css">
+    <!-- Odometer CSS -->
+    <link rel="stylesheet" href="./homepage_files/odometer.min.css">
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="./homepage_files/nice-select.min.css">
+    <!-- Carousel CSS -->
+    <link rel="stylesheet" href="./homepage_files/owl.carousel.min.css">
+    <!-- Carousel Default CSS -->
+    <link rel="stylesheet" href="./homepage_files/owl.theme.default.min.css">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="./homepage_files/magnific-popup.min.css">
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" href="./homepage_files/fancybox.min.css">
+    <!-- Style CSS (original, untouched) -->
+    <link rel="stylesheet" href="./homepage_files/style.css">
+    <!-- Dark CSS -->
+    <link rel="stylesheet" href="./homepage_files/dark.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./homepage_files/responsive.css">
+
+    <!-- FONT AWESOME 6 (Free) – used everywhere, replacing Remixicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Dancing Numbers – Bulk Import/Export/Delete for QuickBooks</title>
+    <link rel="icon" type="image/png" href="https://templates.envytheme.com/plod/default/https://templates.envytheme.com/plod/default/assets/images/favicon.png">
+    <style>
+        /* ensure font awesome icons display properly and override remixicon if both loaded */
+        i[class^="ri-"],
+        i[class*=" ri-"] {
+            display: inline-block;
+        }
+
+        .single-services .icon i,
+        .single-features i,
+        .clients-item i,
+        .plans-features-list i,
+        .widget-info i,
+        .widget-social i,
+        .footer-links-list i,
+        .entry-meta i,
+        .go-top i,
+        .default-btn i,
+        .services-btn i,
+        .overview-btn i,
+        .sidebar-contact-info i {
+            font-family: "Font Awesome 6 Free" !important;
+            font-weight: 900 !important;
+            font-style: normal !important;
+        }
+
+        /* map specific replacements: we will output <i class="fas fa-..."> inline, but this is safe */
+    </style>
+</head>
+
+<body>
+
+    <!-- Start Preloader Area -->
+    <div class="preloader-area" style="display: none;">
+        <div class="spinner">
+            <div class="inner">
+                <div class="disc"></div>
+                <div class="disc"></div>
+                <div class="disc"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Preloader Area -->
+
+    <!-- Start Navbar Area (only text changed, images untouched) -->
+    <div class="navbar-area">
+        <div class="main-responsive-nav">
+            <div class="container">
+                <div class="main-responsive-menu">
+                    <div class="logo">
+                        <a href="index.html">
+                            <!-- original images, untouched -->
+                            <img src="./homepage_files/logo.png" class="black-logo" alt="logo">
+                            <img src="./homepage_files/white-logo.png" class="white-logo" alt="logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-navbar">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./homepage_files/logo.png" class="black-logo" alt="logo">
+                        <img src="./homepage_files/white-logo.png" class="white-logo" alt="logo">
+                    </a>
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent" style="display: block;">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">Home <i class="fas fa-plus"></i></a>
+                                <!-- Font Awesome -->
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a href="index.html" class="nav-link active">Dancing Numbers
+                                            Home</a></li>
+                                    <li class="nav-item"><a href="index-2.html" class="nav-link">QuickBooks Addon</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Products <i class="fas fa-plus"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a href="#" class="nav-link">Bulk Importer</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Bulk Exporter</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Bulk Deleter</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Custom Integrations</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Solutions <i class="fas fa-plus"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a href="#" class="nav-link">For Accountants</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">For Small Business</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">For E‑Commerce</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="others-options d-flex align-items-center">
+                            <div class="option-item">
+                                <i class="search-btn fas fa-search"></i> <!-- FA search -->
+                                <i class="close-btn fas fa-times"></i> <!-- FA close -->
+                                <div class="search-overlay search-popup">
+                                    <div class="search-box">
+                                        <form class="search-form">
+                                            <input class="search-input" name="search" placeholder="Search..."
+                                                type="text">
+                                            <button class="search-button" type="submit"><i
+                                                    class="fas fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="option-item">
+                                <a href="contact.html" class="default-btn">Get Started <i
+                                        class="fas fa-paper-plane"></i><span></span></a> <!-- FA -->
+                            </div>
+                            <div class="option-item">
+                                <div class="side-menu-btn">
+                                    <i class="fas fa-bars" data-bs-toggle="modal" data-bs-target="#sidebarModal"></i>
+                                    <!-- FA -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="others-option-for-responsive">
+            <div class="container">
+                <div class="dot-menu">
+                    <div class="inner">
+                        <div class="circle circle-one"></div>
+                        <div class="circle circle-two"></div>
+                        <div class="circle circle-three"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="option-inner">
+                        <div class="others-options d-flex align-items-center">
+                            <div class="option-item">
+                                <i class="search-btn fas fa-search"></i>
+                                <i class="close-btn fas fa-times"></i>
+                                <div class="search-overlay search-popup">
+                                    <div class="search-box">
+                                        <form class="search-form">
+                                            <input class="search-input" name="search" placeholder="Search..."
+                                                type="text">
+                                            <button class="search-button" type="submit"><i
+                                                    class="fas fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="option-item">
+                                <a href="contact.html" class="default-btn">Get Started <i
+                                        class="fas fa-paper-plane"></i><span></span></a>
+                            </div>
+                            <div class="option-item">
+                                <div class="side-menu-btn">
+                                    <i class="fas fa-bars" data-bs-toggle="modal" data-bs-target="#sidebarModal"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar Area -->
+
+    <!-- Sidebar Modal (Font Awesome icons) -->
+    <div class="sidebarModal modal right fade" id="sidebarModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+                <div class="modal-body">
+                    <div class="title">
+                        <a href="index.html">
+                            <img src="./homepage_files/logo.png" class="black-logo" alt="logo">
+                            <img src="./homepage_files/white-logo.png" class="white-logo" alt="logo">
+                        </a>
+                    </div>
+                    <div class="sidebar-content">
+                        <h3>QuickBooks Automation</h3>
+                        <p>Revolutionize your QuickBooks workflow with powerful bulk operations: import, export, delete,
+                            and custom integrations trusted by 50,000+ active users.</p>
+                        <div class="sidebar-btn">
+                            <a href="contact.html" class="default-btn">Get Started <i
+                                    class="fas fa-paper-plane"></i><span></span></a>
+                        </div>
+                    </div>
+                    <div class="sidebar-contact-info">
+                        <h3>Contact</h3>
+                        <ul class="info-list">
+                            <li><i class="fas fa-phone-alt"></i> <a href="tel:+11234567890">+1 (800) 123-4567</a></li>
+                            <li><i class="fas fa-envelope"></i> <a
+                                    href="mailto:hello@dancingnumbers.com">hello@dancingnumbers.com</a></li>
+                            <li><i class="fas fa-map-marker-alt"></i> 121 King St, Melbourne VIC 3000, Australia.</li>
+                        </ul>
+                    </div>
+                    <ul class="sidebar-social-list">
+                        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Sidebar Modal -->
+
+
+    <div class="main-banner-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <div class="main-banner-content">
+                        <div class="tag wow animate__ animate__fadeInLeft animated" data-wow-delay="300ms"
+                            data-wow-duration="1000ms">
+                            <img src="./homepage_files/tag-icon.png" alt="image"> # Bulk Import/Export/Delete
+                        </div>
+                        <h1 class="wow animate__ animate__fadeInLeft animated" data-wow-delay="00ms"
+                            data-wow-duration="1000ms">Revolutionize your QuickBooks workflow with powerful bulk
+                            operations.</h1>
+                        <p class="wow animate__ animate__fadeInLeft animated" data-wow-delay="100ms"
+                            data-wow-duration="1000ms">Import thousands of transactions in seconds. Export company file
+                            data for analysis or reporting. Safely delete multiple entries at once with ease.</p>
+                        <div class="banner-btn">
+                            <a href="#" class="default-btn wow animate__ animate__fadeInRight animated"
+                                data-wow-delay="200ms" data-wow-duration="1000ms">Start Free Trial <i
+                                    class="fas fa-arrow-right"></i><span></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <div class="main-banner-animation-image">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img1.png"
+                            class="wow animate__ animate__fadeInDown animated" data-wow-delay="200ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 200ms; animation-name: fadeInDown; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img2.png"
+                            class="wow animate__ animate__fadeInDown animated" data-wow-delay="300ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img3.png"
+                            class="wow animate__ animate__fadeInDown animated" data-wow-delay="400ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 400ms; animation-name: fadeInDown; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img4.png"
+                            class="wow animate__ animate__fadeInDown animated" data-wow-delay="900ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 900ms; animation-name: fadeInDown; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img5.png" class="wow fadeInUp animated"
+                            data-wow-delay="1300ms" data-wow-duration="1000ms" alt="image" data-speed="0.06"
+                            data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 1300ms; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img6.png"
+                            class="wow animate__ animate__fadeInDown animated" data-wow-delay="700ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 700ms; animation-name: fadeInDown; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img7.png"
+                            class="wow animate__ animate__fadeInDown animated" data-wow-delay="800ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 800ms; animation-name: fadeInDown; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img8.png"
+                            class="wow animate__ animate__fadeInDown animated" data-wow-delay="800ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 800ms; animation-name: fadeInDown; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img9.png"
+                            class="wow animate__ animate__fadeInDown animated" data-wow-delay="1000ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 1000ms; animation-name: fadeInDown; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img10.png"
+                            class="wow animate__ animate__fadeInDown animated" data-wow-delay="100ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 100ms; animation-name: fadeInDown; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img11.png"
+                            class="wow animate__ animate__fadeInDown animated" data-wow-delay="300ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img12.png"
+                            class="wow animate__ animate__fadeInLeft animated" data-wow-delay="1300ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 1300ms; animation-name: fadeInLeft; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img13.png"
+                            class="wow animate__ animate__fadeInLeft animated" data-wow-delay="1300ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 1300ms; animation-name: fadeInLeft; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img14.png"
+                            class="wow animate__ animate__fadeInLeft animated" data-wow-delay="1300ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 1300ms; animation-name: fadeInLeft; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/img15.png"
+                            class="wow animate__ animate__fadeInLeft animated" data-wow-delay="1300ms"
+                            data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true"
+                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 1300ms; animation-name: fadeInLeft; transform: matrix(1, 0, 0, 1, -7.388, 8.632);">
+                        <img src="https://templates.envytheme.com/plod/default/assets/images/main-banner/banner-one/main-pic.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- shapes untouched -->
+        <div class="main-banner-shape-1"><img src="./homepage_files/shape-1.png" alt="image"></div>
+        <div class="main-banner-shape-2"><img src="./homepage_files/shape-2.png" alt="image"></div>
+        <div class="main-banner-shape-3"><img src="./homepage_files/shape-3.png" alt="image"></div>
+        <div class="main-banner-shape-4"><img src="./homepage_files/shape-4.png" alt="image"></div>
+    </div>
+    <!-- End Main Banner Area -->
+
+
+
+    <!-- Start Features Area – Bulk Import/Export/Delete with Font Awesome -->
+    <div class="features-area pt-100 pb-70">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-features">
+                        <a href="#"><img src="./homepage_files/features-1.png" alt="Import"></a>
+                        <h3><a href="#">Bulk Import</a></h3>
+                        <p>Import thousands of transactions in seconds. Reduce manual entry and errors. Bring in bank
+                            transactions, sales, and inventory.</p>
+                        <div class="features-btn">
+                            <a href="#" class="default-btn">Learn More <i
+                                    class="fas fa-arrow-right"></i><span></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-features">
+                        <a href="#"><img src="./homepage_files/features-2.png" alt="Export"></a>
+                        <h3><a href="#">Bulk Export</a></h3>
+                        <p>Export company file data for analysis, audits, or custom reports. Generate comprehensive
+                            reports for clients or tax preparation.</p>
+                        <div class="features-btn">
+                            <a href="#" class="default-btn">Learn More <i
+                                    class="fas fa-arrow-right"></i><span></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-features">
+                        <a href="#"><img src="./homepage_files/features-3.png" alt="Delete"></a>
+                        <h3><a href="#">Bulk Delete</a></h3>
+                        <p>Safely delete multiple entries at once with ease. Clean up duplicates, test entries, or
+                            outdated data across client accounts.</p>
+                        <div class="features-btn">
+                            <a href="#" class="default-btn">Learn More <i
+                                    class="fas fa-arrow-right"></i><span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- shapes untouched -->
+    </div>
+
+    <!-- Start Experiences Area – Custom Integrations & Conversion -->
+    <div class="experiences-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="experiences-item">
+                        <div class="experiences-content">
+                            <div class="tag"><img src="./homepage_files/tag-icon(1).png" alt="icon"></div>
+                            <h3>Custom Integrations & Data Conversion</h3>
+                            <p>Connect business solutions for automated data sync. Schedulers, custom integrations as
+                                per requirements, and connectors for automation workflows.</p>
+                            <p>Convert any accounting software data to QuickBooks with assistance from certified
+                                migration experts. Customized conversion plans, 100% data encryption.</p>
+                        </div>
+                        <div class="experiences-inner-content">
+                            <img src="./homepage_files/img1(1).png" alt="icon">
+                            <p><strong>Custom Integrations</strong> – Schedulers and integrations to sync data.
+                                Connectors for automation workflows.</p>
+                        </div>
+                        <div class="experiences-inner-content">
+                            <img src="./homepage_files/img2(1).png" alt="icon">
+                            <p><strong>Custom Conversion</strong> – Certified QuickBooks Migration Experts. Customized
+                                plans for every business.</p>
+                        </div>
+                        <div class="experiences-inner-content">
+                            <img src="./homepage_files/img3(1).png" alt="icon">
+                            <p><strong>100% Safe & Secure</strong> – State-of-the-art encryption to secure your
+                                financial data.</p>
+                        </div>
+                        <div class="experiences-btn">
+                            <a href="#" class="default-btn">Explore Integrations <i
+                                    class="fas fa-arrow-right"></i><span></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="experiences-image" data-speed="0.02" data-revert="true">
+                        <img src="./homepage_files/experiences-1.png" alt="image"> <!-- original image -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Services Area – Top Choice of Bookkeepers & Accountants, stats with FA -->
+    <div class="services-area pt-100 pb-70">
+        <div class="container">
+            <div class="section-title">
+                <h2>Top Choice of Bookkeepers and Accountants</h2>
+                <p>With our outstanding QuickBooks automation services, we’ve become a trusted choice throughout the
+                    USA. Streamline workflows and focus on business strategies.</p>
+                <div style="display: flex; justify-content: center; gap: 50px; margin-top: 30px;">
+                    <div>
+                        <h3 style="color: #0a53be; font-size: 42px;">50,000+</h3>
+                        <p>Active Users</p>
+                    </div>
+                    <div>
+                        <h3 style="color: #0a53be; font-size: 42px;">10 Million+</h3>
+                        <p>Transactions Processed</p>
+                    </div>
+                    <div>
+                        <h3 style="color: #0a53be; font-size: 42px;">100,000+</h3>
+                        <p>Hours Saved</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <div class="icon"><i class="fas fa-user-tie"></i></div> <!-- FA -->
+                        <h3><a href="#">For Accountants & Bookkeepers</a></h3>
+                        <p>Quickly import large volumes of client transactions, reduce errors, handle multiple clients’
+                            books. Export for audits, clean test entries.</p>
+                        <a href="#" class="services-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <div class="icon bg-36CC72"><i class="fas fa-store"></i></div> <!-- FA -->
+                        <h3><a href="#">For Small Business Owners</a></h3>
+                        <p>Import sales channels, update inventory, reconcile bank transactions. Create financial
+                            reports, export for marketing, delete old data safely.</p>
+                        <a href="#" class="services-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <div class="icon bg-FF414B"><i class="fas fa-shopping-cart"></i></div> <!-- FA -->
+                        <h3><a href="#">For E‑Commerce Businesses</a></h3>
+                        <p>Import daily sales from multiple platforms, update thousands of SKUs, export top-selling
+                            reports, remove discontinued products efficiently.</p>
+                        <a href="#" class="services-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Support Area – Trusted by leading Customers / awards (FA icons) -->
+    <div class="support-area">
+        <div class="container">
+            <div class="support-content">
+                <div class="tag"><img src="./homepage_files/tag-icon(1).png" alt="icon"></div>
+                <h3>Trusted by leading Customers · Enterprise · Premier</h3>
+                <p style="max-width: 700px; margin: 0 auto;">Hear from the Happy Dancing Numbers Users. User Experience
+                    Excellence 2025, Top Performer 2025, Great User Experience 2020 FinanceOnline, Rising Star 2020
+                    FinanceOnline.</p>
+                <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star"
+                        style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i
+                        class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star"
+                        style="color: #ffc107;"></i> 5-Star Rated</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Cases Area – Bulk Operations Deep Dive per audience -->
+    <div class="cases-area ptb-100">
+        <div class="container">
+            <div class="section-title">
+                <h2>Automate Manual Processes with Bulk Importer, Exporter, Deleter for QuickBooks</h2>
+                <p>Tailored solutions for Accountants, Small Business, and E-Commerce.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="single-cases">
+                        <div class="cases-image"><a href="#"><img src="./homepage_files/cases-1.jpg" alt="cases"></a>
+                        </div>
+                        <div class="cases-content">
+                            <div class="tag-1">Accountants</div>
+                            <h3><a href="#">Bulk Import: client transactions</a></h3>
+                            <p>Quickly import large volumes, reduce manual entry errors, handle multiple clients' books
+                                efficiently.</p>
+                        </div>
+                    </div>
+                    <div class="single-cases">
+                        <div class="cases-image"><a href="#"><img src="./homepage_files/cases-2.jpg" alt="cases"></a>
+                        </div>
+                        <div class="cases-content">
+                            <div class="tag-1">Accountants</div>
+                            <h3><a href="#">Bulk Export & Delete for audits</a></h3>
+                            <p>Generate comprehensive reports, export for tax prep, clean up duplicate entries safely.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-cases">
+                        <div class="cases-image"><a href="#"><img src="./homepage_files/cases-3.jpg" alt="cases"></a>
+                        </div>
+                        <div class="cases-content">
+                            <div class="tag-1">Small Business</div>
+                            <h3><a href="#">Import sales & update inventory</a></h3>
+                            <p>Import sales data from multiple channels, update inventory levels across your catalog.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-cases">
+                        <div class="cases-image"><a href="#"><img src="./homepage_files/cases-4.jpg" alt="cases"></a>
+                        </div>
+                        <div class="cases-content">
+                            <div class="tag-1">E‑Commerce</div>
+                            <h3><a href="#">Multi-platform sales import</a></h3>
+                            <p>Import daily sales, update thousands of SKUs, export best-seller reports, delete
+                                discontinued products.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cases-view-all-btn">
+                    <a href="#" class="default-btn">View All Features <i class="fas fa-briefcase"></i><span></span></a>
+                    <!-- FA -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Clients Area – Testimonials (FA stars) -->
+    <div class="clients-area ptb-100">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hear from Happy Dancing Numbers Users</h2>
+                <p>User Experience Excellence 2025 · Top Performer 2025</p>
+            </div>
+            <div class="clients-slides owl-carousel owl-theme owl-loaded owl-drag">
+                <div class="clients-item">
+                    <img src="./homepage_files/clients-1.png" alt="client">
+                    <p>“Dancing Numbers saved our firm over 20 hours per week on data entry. The bulk importer is
+                        flawless and their support team is amazing.”</p>
+                    <div class="title-name">
+                        <h3>Deanna Hodges</h3><span>CPA, Hodges Accounting</span>
+                    </div>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="clients-item">
+                    <img src="./homepage_files/clients-2.png" alt="client">
+                    <p>“We manage 50+ QuickBooks Online companies. Bulk export and delete features are game changers for
+                        month-end close.”</p>
+                    <div class="title-name">
+                        <h3>Londynn Vargas</h3><span>Bookkeeper, Vargas & Co</span>
+                    </div>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="clients-item">
+                    <img src="./homepage_files/clients-3.png" alt="client">
+                    <p>“Our e‑commerce business imports 5,000+ transactions daily. Dancing Numbers handles it
+                        seamlessly. Highly recommended.”</p>
+                    <div class="title-name">
+                        <h3>James Anderson</h3><span>E‑Commerce Director</span>
+                    </div>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Plans Area – Choose Your Path: Desktop / Online addon -->
+    <div class="plans-area pt-100 pb-100">
+        <div class="container">
+            <div class="section-title">
+                <h2>Choose Your Path to Efficiency</h2>
+                <p>Take control of your data management.</p>
+            </div>
+            <div class="plans-switcher">
+                <div class="switcher-box">
+                    <label class="toggler toggler--is-active" id="filt-monthly">QuickBooks Desktop Addon</label>
+                    <div class="toggle">
+                        <input type="checkbox" id="switcher" class="check">
+                        <b class="b switch"></b>
+                    </div>
+                    <label class="toggler" id="filt-yearly">QuickBooks Online Addon</label>
+                </div>
+            </div>
+            <!-- Desktop -->
+            <div id="monthly" class="wrapper-full">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="single-plans-table">
+                            <div class="plans-header">
+                                <h3>Desktop Pro / Premier</h3>
+                                <p>Powerful bulk operations</p>
+                            </div>
+                            <div class="price">$199 <span>/year</span></div>
+                            <div class="plans-btn"><a href="#" class="default-btn">Buy Now <i
+                                        class="fas fa-arrow-right"></i><span></span></a></div>
+                            <ul class="plans-features-list">
+                                <li><i class="fas fa-check"></i> Bulk Import/Export/Delete</li>
+                                <li><i class="fas fa-check"></i> Comprehensive tutorials & support</li>
+                                <li><i class="fas fa-check"></i> Unlimited companies</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="single-plans-table active-box">
+                            <div class="plans-header">
+                                <h3>Desktop Enterprise</h3>
+                                <p>High-volume automation</p>
+                            </div>
+                            <div class="price">$349 <span>/year</span></div>
+                            <div class="plans-btn"><a href="#" class="default-btn">Buy Now <i
+                                        class="fas fa-arrow-right"></i><span></span></a></div>
+                            <ul class="plans-features-list">
+                                <li><i class="fas fa-check"></i> Everything in Pro +</li>
+                                <li><i class="fas fa-check"></i> Advanced custom integration</li>
+                                <li><i class="fas fa-check"></i> Priority support</li>
+                            </ul>
+                            <div class="popular-tag"><span>Most Popular</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Online -->
+            <div id="yearly" class="wrapper-full hide">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="single-plans-table">
+                            <div class="plans-header">
+                                <h3>QBO Essentials</h3>
+                                <p>Starter bulk addon</p>
+                            </div>
+                            <div class="price">$99 <span>/year</span></div>
+                            <div class="plans-btn"><a href="#" class="default-btn">Buy Now <i
+                                        class="fas fa-arrow-right"></i><span></span></a></div>
+                            <ul class="plans-features-list">
+                                <li><i class="fas fa-check"></i> Up to 50k transactions/month</li>
+                                <li><i class="fas fa-check"></i> Import/Export/Delete</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="single-plans-table active-box">
+                            <div class="plans-header">
+                                <h3>QBO Advanced</h3>
+                                <p>Unlimited transactions</p>
+                            </div>
+                            <div class="price">$249 <span>/year</span></div>
+                            <div class="plans-btn"><a href="#" class="default-btn">Buy Now <i
+                                        class="fas fa-arrow-right"></i><span></span></a></div>
+                            <ul class="plans-features-list">
+                                <li><i class="fas fa-check"></i> Unlimited imports/exports</li>
+                                <li><i class="fas fa-check"></i> Custom connectors</li>
+                            </ul>
+                            <div class="popular-tag"><span>Recommended</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-plans-btn">
+                <a href="#" class="plans-btn-one">Compare all plans <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Blog Area – Latest posts (FA icons) -->
+    <div class="blog-area pt-100 pb-70">
+        <div class="container">
+            <div class="section-title">
+                <h2>Latest from our blogs</h2>
+                <p>QuickBooks Desktop Payroll Error PS038 · How to Change Beginning Balance in QBO</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog">
+                        <div class="blog-image"><a href="#"><img src="./homepage_files/blog-1.jpg" alt="blog"></a></div>
+                        <div class="blog-content">
+                            <ul class="entry-meta">
+                                <li class="tag">Payroll</li>
+                                <li><i class="fas fa-calendar-alt"></i> February 04, 2026</li> <!-- FA -->
+                                <li><i class="fas fa-comment"></i> (0) Comment</li>
+                            </ul>
+                            <h3><a href="#">QuickBooks Desktop Payroll Error PS038 – Resolving Stuck Paychecks (2026
+                                    Guide)</a></h3>
+                            <a href="#" class="blog-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog">
+                        <div class="blog-image"><a href="#"><img src="./homepage_files/blog-2.jpg" alt="blog"></a></div>
+                        <div class="blog-content">
+                            <ul class="entry-meta">
+                                <li class="tag">QBO</li>
+                                <li><i class="fas fa-calendar-alt"></i> January 28, 2026</li>
+                                <li><i class="fas fa-comment"></i> (2) Comments</li>
+                            </ul>
+                            <h3><a href="#">How to Change the Beginning Balance in QuickBooks Online?</a></h3>
+                            <a href="#" class="blog-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog">
+                        <div class="blog-image"><a href="#"><img src="./homepage_files/blog-3.jpg" alt="blog"></a></div>
+                        <div class="blog-content">
+                            <ul class="entry-meta">
+                                <li class="tag">Guides</li>
+                                <li><i class="fas fa-calendar-alt"></i> March 02, 2026</li>
+                                <li><i class="fas fa-comment"></i> (5) Comments</li>
+                            </ul>
+                            <h3><a href="#">How to Import Data into QuickBooks – The Ultimate Guide</a></h3>
+                            <a href="#" class="blog-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Start Footer Area – resource links, all FA icons -->
+    <footer class="footer-area pt-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="widget-logo">
+                            <a href="index.html"><img src="./homepage_files/logo.png" class="black-logo" alt="logo"><img
+                                    src="./homepage_files/white-logo.png" class="white-logo" alt="logo"></a>
+                        </div>
+                        <p>Best solution for QuickBooks bulk operations. Trusted by 50,000+ active users.</p>
+                        <ul class="widget-info">
+                            <li><i class="fas fa-headset"></i> <a href="tel:3128959800">(312) 895-9800</a></li>
+                            <li><i class="fas fa-globe"></i> <a
+                                    href="mailto:hello@dancingnumbers.com">hello@dancingnumbers.com</a></li>
+                            <li><i class="fas fa-map-pin"></i> 121 St, Melbourne VIC 3000, Australia</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-3">
+                    <div class="single-footer-widget">
+                        <h3>QuickBooks Tools</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="#"><i class="fas fa-angle-right"></i> Dancing Numbers Online</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> Dancing Numbers Desktop</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> QB Errors Guides</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> QB Payroll Guides</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-3">
+                    <div class="single-footer-widget">
+                        <h3>How-To Guides</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="#"><i class="fas fa-angle-right"></i> Import Data</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> Export Data</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> Delete/Remove</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> Record in QB</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> Print in QB</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h3>Resources</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="#"><i class="fas fa-angle-right"></i> QB Comparison</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> QB Reports</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> QB Tax Guides</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> Reconciliation</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h3>Newsletter</h3>
+                        <div class="widget-newsletter">
+                            <p>Get expert QuickBooks tips and updates.</p>
+                            <form class="newsletter-form">
+                                <input type="email" class="input-newsletter" placeholder="Enter email" required>
+                                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                        <ul class="widget-social">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="copyright-area-content">
+                    <p>Copyright Dancing Numbers. All Rights Reserved by <a href="https://envytheme.com/"
+                            target="_blank"></p>
+                </div>
+            </div>
+        </div>
+        <!-- footer shapes (original) -->
+    </footer>
+    <!-- End Footer Area -->
+
+    <!-- Start Go Top Area (FA icon) -->
+    <div class="go-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <!-- End Go Top Area -->
+
+    <style>
+        .buy-now-btn {
+            display: none;
+        }
+    </style>
+    <!-- Jquery Slim JS -->
+
+    <script src="https://templates.envytheme.com/plod/default/assets/js/jquery.min.js"></script>
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Meanmenu JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/jquery.meanmenu.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/owl.carousel.min.js"></script>
+    <!-- Jquery Appear JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/jquery.appear.js"></script>
+    <!-- Odometer JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/odometer.min.js"></script>
+    <!-- Nice Select JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/nice-select.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Fancybox JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/fancybox.min.js"></script>
+    <!-- TweenMax JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/TweenMax.min.js"></script>
+    <!-- Scrollbar JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/scrollbar.min.js"></script>
+    <!-- Horizontal Scrollbar JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/horizontal-scrollbar.min.js"></script>
+    <!-- Ajaxchimp JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/jquery.ajaxchimp.min.js"></script>
+    <!-- Form Validator JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/form-validator.min.js"></script>
+    <!-- Contact JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/contact-form-script.js"></script>
+    <!-- Wow JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/wow.min.js"></script>
+    <!-- Custom JS -->
+    <script src="https://templates.envytheme.com/plod/default/assets/js/main.js"></script>
+</body>
+
+</html>
